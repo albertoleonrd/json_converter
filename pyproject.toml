@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json_converter"
+version = "0.1.0"
+description = "Herramienta para convertir entre formatos JSON y JSONL"
+requires-python = ">=3.8"
+authors = [
+    {name = "Usuario", email = "usuario@example.com"}
+]
+
+[project.scripts]
+json_converter = "json_converter.cli:main"

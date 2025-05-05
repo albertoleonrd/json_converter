@@ -1,0 +1,67 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de registro
+*.log
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura y pruebas
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Archivos específicos del proyecto
+resultado.json
+resultado.jsonl
