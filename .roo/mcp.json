@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "git": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server_git",
+        "--repository",
+        "C:/Users/admin/Desktop/borrar"
+      ],
+      "disabled": true,
+      "alwaysAllow": []
+    },
+    "MongoDB": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "mongodb-mcp-server",
+        "--connectionString",
+        "mongodb://localhost:27017/english_profile"
+      ],
+      "alwaysAllow": [
+        "list-collections",
+        "list-databases",
+        "collection-indexes",
+        "find",
+        "count"
+      ]
+    }
+  }
+}
