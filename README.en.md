@@ -1,4 +1,4 @@
-# JSON Converter
+# JSON to JSONL
 
 Command-line tool to efficiently convert between JSON Lines (JSONL) and standard JSON formats.
 
@@ -49,8 +49,8 @@ Python might be installed but not in your PATH. You can:
 ### 2. Clone or download this repository:
 
 ```bash
-git clone https://github.com/albertoleonrd/json_converter.git
-cd json_converter
+git clone https://github.com/albertoleonrd/json_to_jsonl.git
+cd json_to_jsonl
 ```
 
 ### 3. Install the package in development mode:
@@ -69,19 +69,19 @@ pip install -e .
 The tool automatically detects the format of the input file and performs the appropriate conversion:
 
 ```bash
-json_converter --input file.jsonl --output file.json
+json_to_jsonl --input file.jsonl --output file.json
 ```
 
 or
 
 ```bash
-json_converter --input file.json --output file.jsonl
+json_to_jsonl --input file.json --output file.jsonl
 ```
 
 ### View help
 
 ```bash
-json_converter --help
+json_to_jsonl --help
 ```
 
 ## Examples
@@ -95,8 +95,8 @@ You can test the tool with these files:
 
 ```bash
 # Using automatic mode
-json_converter --input examples/ejemplo.jsonl --output result.json
-json_converter --input examples/ejemplo.json --output result.jsonl
+json_to_jsonl --input examples/ejemplo.jsonl --output result.json
+json_to_jsonl --input examples/ejemplo.json --output result.jsonl
 ```
 
 ### Example of JSONL content (ejemplo.jsonl)

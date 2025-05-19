@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import List, Dict, Any, Iterator, Union, TextIO, Literal
 
-from json_converter.converter import jsonl_to_json, json_to_jsonl
+from json_to_jsonl.converter import jsonl_to_json, json_to_jsonl
 
 
 def read_jsonl_file(input_path: Union[str, Path]) -> List[Dict[str, Any]]:

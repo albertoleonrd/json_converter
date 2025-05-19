@@ -5,8 +5,8 @@ import sys
 import json
 from pathlib import Path
 
-from json_converter import __version__
-from json_converter.file_handler import (
+from json_to_jsonl import __version__
+from json_to_jsonl.file_handler import (
     read_jsonl_file, write_json_file,
     read_json_file, write_jsonl_file,
     detect_file_format
@@ -22,7 +22,7 @@ def create_parser() -> argparse.ArgumentParser:
     """
     # Parser principal
     parser = argparse.ArgumentParser(
-        prog="json_converter",
+        prog="json_to_jsonl",
         description="Herramienta para convertir entre formatos JSON y JSONL"
     )
     parser.add_argument(

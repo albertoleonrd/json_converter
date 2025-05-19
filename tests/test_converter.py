@@ -4,7 +4,7 @@ import json
 import unittest
 from io import StringIO
 
-from json_converter.converter import jsonl_to_json, json_to_jsonl
+from json_to_jsonl.converter import jsonl_to_json, json_to_jsonl
 
 
 class TestConverter(unittest.TestCase):

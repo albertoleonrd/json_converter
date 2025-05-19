@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from json_converter.file_handler import (
+from json_to_jsonl.file_handler import (
     read_jsonl_file, write_json_file,
     read_json_file, write_jsonl_file
 )
